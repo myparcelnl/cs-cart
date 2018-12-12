@@ -1,0 +1,132 @@
+.sd_myparcel_nl__datetime_picker {
+  width: 140px;
+}
+
+.tooltip {
+  max-width: 400px;
+}
+
+.location-tooltip {
+  min-width: 400px;
+  * {
+    color: white;
+  }
+}
+
+.delivery-options-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-options-wrapper > .delivery {
+    min-width: 50%;
+
+    .delivery-type-content select {
+        margin: 10px 0 10px 24px;
+    }
+}
+
+.delivery-options-wrapper > .pickup {
+    min-width: 50%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .wrap-input-pickup {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        line-height: 1;
+    }
+}
+
+.delivery-options-wrapper > .pickup .delivery-type-content {
+    margin: 10px 0 0 20px;
+
+    select {
+        margin-bottom: 10px;
+    }
+}
+
+.info_street {
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    .location-street {
+        margin-top: 3px;
+        display: inline-block;
+    }
+
+    span {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+
+    svg {
+        width: 12px;
+        height: 14px;
+    }
+    svg > path {
+        fill: #2e3a47;
+    }
+}
+
+@media (max-width: 1080px) {
+    .delivery-options-wrapper {
+        flex-direction: column;
+
+        .pickup {
+            .wrap-input-pickup > input {
+            	margin-right: 11px;
+            }
+
+            .delivery-type-content {
+                margin-left: 25px;
+            }
+
+            .delivery-type-content select {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Clearfix
+// --------
+// For clearing floats like a boss h5bp.com/q
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/content editable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}

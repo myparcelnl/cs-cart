@@ -1,0 +1,617 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_myparcel_nl"
+msgid "Simtech Development: Service Myparcel.nl integration"
+msgstr "Simtech Development: Service Myparcel.nl integration"
+
+msgctxt "Addons::description::sd_myparcel_nl"
+msgid "<a href=\"https://www.myparcel.nl/\" target=\"_blank\">Myparcel</a> shipping service. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "<a href=\"https://www.myparcel.nl/\" target=\"_blank\">Myparcel</a> shipping service. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "SettingsSections::sd_myparcel_nl::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::bulk_print_label_page_format"
+msgid "Bulk print labels page format"
+msgstr "Bulk print labels page format"
+
+msgctxt "SettingsVariants::sd_myparcel_nl::bulk_print_label_page_format::A4"
+msgid "A4"
+msgstr "A4"
+
+msgctxt "SettingsVariants::sd_myparcel_nl::bulk_print_label_page_format::A6"
+msgid "A6"
+msgstr "A6"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::webhooks_password"
+msgid "Password for webhooks service"
+msgstr "Password for webhooks service"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::webhooks_password"
+msgid "Enter the secret phrase for the Myparcel service shipments status service callbacks"
+msgstr "Enter the secret phrase for the Myparcel service shipments status service callbacks"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::get_tracking_info_via_webhooks"
+msgid "Get tracking info via webhooks"
+msgstr "Get tracking info via webhooks"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::get_tracking_info_via_webhooks"
+msgid "If set shipping status will be updated by change status event by webhook. If not set then status will be updated via API request to our service. First variant is better."
+msgstr "If set shipping status will be updated by change status event by webhook. If not set then status will be updated via API request to our service. First variant is better."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::username"
+msgid "Username"
+msgstr "Username"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "Languages::carrier_myparcel_nl"
+msgid "MyparcelNL"
+msgstr "MyparcelNL"
+
+msgctxt "Languages::sd_myparcel_nl.order_info"
+msgid "Information from MyparcelNL"
+msgstr "Information from MyparcelNL"
+
+msgctxt "Languages::addons.sd_myparcel_nl.sandbox_mode"
+msgid "Test mode"
+msgstr "Test mode"
+
+msgctxt "Languages::addons.sd_myparcel_nl.customer_code"
+msgid "Customer code"
+msgstr "Customer code"
+
+msgctxt "Languages::addons.sd_myparcel_nl.customer_number"
+msgid "Customer number"
+msgstr "Customer number"
+
+msgctxt "Languages::addons.sd_myparcel_nl.username"
+msgid "Username"
+msgstr "Username"
+
+msgctxt "Languages::addons.sd_myparcel_nl.api_key"
+msgid "API key/password"
+msgstr "API key/password"
+
+msgctxt "Languages::addons.sd_myparcel_nl.company_name"
+msgid "Company name"
+msgstr "Company name"
+
+msgctxt "Languages::addons.sd_myparcel_nl.type"
+msgid "Delivery type"
+msgstr "Delivery type"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipping_rates"
+msgid "Shipping charges table"
+msgstr "Shipping charges table"
+
+msgctxt "Languages::addons.sd_myparcel_nl.destination_zone"
+msgid "Destination zone"
+msgstr "Destination zone"
+
+msgctxt "Languages::addons.sd_myparcel_nl.ship_max_height"
+msgid "Max package height"
+msgstr "Max package height"
+
+msgctxt "Languages::addons.sd_myparcel_nl.ship_max_width"
+msgid "Max package width"
+msgstr "Max package width"
+
+msgctxt "Languages::addons.sd_myparcel_nl.ship_max_length"
+msgid "Max package length"
+msgstr "Max package length"
+
+msgctxt "Languages::addons.sd_myparcel_nl.tracking_link"
+msgid "Tracking link"
+msgstr "Tracking link"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "Languages::addons.sd_myparcel_nl.labels"
+msgid "Labels"
+msgstr "Labels"
+
+msgctxt "Languages::addons.sd_myparcel_nl.additional_shipment_info"
+msgid "Additional shipment info"
+msgstr "Additional shipment info"
+
+msgctxt "Languages::addons.sd_myparcel_nl.error_no_package_dimensions_data"
+msgid "One or more products has no box size data"
+msgstr "One or more products has no box size data"
+
+msgctxt "Languages::addons.sd_myparcel_nl.error_label_request_is_invalid"
+msgid "Labelling request is invalid."
+msgstr "Labelling request is invalid"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_is_empty"
+msgid "Shipment object is empty"
+msgstr "Shipment object is empty"
+
+msgctxt "Languages::addons.sd_myparcel_nl.error_order_parameters_not_suitable_to_myparcel_nl"
+msgid "The order's parameters isn't suitable for MyparcelNL service."
+msgstr "The order's parameters isn't suitable for MyparcelNL service. Please select other carrier."
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipping_params_is_empty"
+msgid "Wrong shipping parameters of the product."
+msgstr "Wrong shipping parameters of the product."
+
+msgctxt "Languages::addons.sd_myparcel_nl.tariff_zone"
+msgid "Tariff zone"
+msgstr "Tariff zone"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_page_format"
+msgid "Label page format"
+msgstr "Label page format"
+
+msgctxt "Languages::carrier_myparcel"
+msgid "Myparcel.nl"
+msgstr "Myparcel.nl"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.morning"
+msgid "Morning"
+msgstr "Morning"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.standard"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.night"
+msgid "Night"
+msgstr "Night"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.express"
+msgid "Express"
+msgstr "Express"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_types.package"
+msgid "Package"
+msgstr "Package"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_types.mailbox_package"
+msgid "Mailbox package"
+msgstr "Mailbox package"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_types.letter"
+msgid "Letter"
+msgstr "Letter"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_type"
+msgid "Package type"
+msgstr "Package type"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_type"
+msgid "Delivery type"
+msgstr "Delivery type"
+
+msgctxt "Languages::addons.sd_myparcel_nl.cutoff_time"
+msgid "Cutoff time"
+msgstr "Cutoff time"
+
+msgctxt "Languages::addons.sd_myparcel_nl.dropoff_days"
+msgid "Dropoff days"
+msgstr "Dropoff days"
+
+msgctxt "Languages::addons.sd_myparcel_nl.dropoff_delay"
+msgid "Dropoff delay"
+msgstr "Dropoff delay"
+
+msgctxt "Languages::addons.sd_myparcel_nl.deliverydays_window"
+msgid "Deliverydays window"
+msgstr "Deliverydays window"
+
+msgctxt "Languages::addons.sd_myparcel_nl.excluded_delivery_types"
+msgid "Excluded delivery types"
+msgstr "Excluded delivery types"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.only_recipient"
+msgid "Only recipient"
+msgstr "Only recipient"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.signature"
+msgid "Signature"
+msgstr "Signature"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.return"
+msgid "Return"
+msgstr "Return"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.large_format"
+msgid "Large format"
+msgstr "Large format"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.insurance"
+msgid "Insurance"
+msgstr "Insurance"
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.only_recipient"
+msgid "Deliver the package only at address of the intended recipient. This option is required for Morning and Evening delivery types."
+msgstr "Deliver the package only at address of the intended recipient. This option is required for Morning and Evening delivery types."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.signature"
+msgid "Recipient must sign for the package. This option is required for Pickup and Pickup express delivery types."
+msgstr "Recipient must sign for the package. This option is required for Pickup and Pickup express delivery types."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.return"
+msgid "Return the package to the sender when the recipient is not home."
+msgstr "Return the package to the sender when the recipient is not home."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.large_format"
+msgid "This option must be specified if the dimensions of the package are between 100 x 70 x 50 and 175 x 78 x 58 cm. If the scanned dimensions from the carrier indicate that this package is large format and it has not been specified then it will be added to the shipment in the billing process. This option is also available for EU shipments."
+msgstr "This option must be specified if the dimensions of the package are between 100 x 70 x 50 and 175 x 78 x 58 cm. If the scanned dimensions from the carrier indicate that this package is large format and it has not been specified then it will be added to the shipment in the billing process. This option is also available for EU shipments."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.insurance"
+msgid "This option allows a shipment to be insured up to certain amount. Only package type 1 (package) shipments can be insured. NL shipments can be insured for 5000,- euros. EU shipments must be insured for 500,- euros. Global shipments must be insured for 200,- euros. The following shipment options are mandatory when insuring an NL shipment: only_recipient and signature."
+msgstr "This option allows a shipment to be insured up to certain amount. Only package type 1 (package) shipments can be insured. NL shipments can be insured for 5000,- euros. EU shipments must be insured for 500,- euros. Global shipments must be insured for 200,- euros. The following shipment options are mandatory when insuring an NL shipment: only_recipient and signature."
+
+msgctxt "Languages::addons.sd_myparcel_nl.additional_shipping_options_price_modifier"
+msgid "Additional price"
+msgstr "Additional price"
+
+msgctxt "Languages::addons.sd_myparcel_nl.no_deliver_at_selected_datetime"
+msgid "No deliver options for selected datetime. Please select other date or time"
+msgstr "No deliver options for selected datetime. Please select other date or time"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions"
+msgid "Label positions"
+msgstr "Label positions"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_position"
+msgid "Label position"
+msgstr "Label position"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.top-left"
+msgid "Top left"
+msgstr "Top left"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.top-right"
+msgid "Top right"
+msgstr "Top right"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.bottom-left"
+msgid "Bottom left"
+msgstr "Bottom left"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.bottom-right"
+msgid "Bottom right"
+msgstr "Bottom right"
+
+msgctxt "Languages::addons.sd_myparcel_nl.all_delivery_types_accepted"
+msgid "All accepted"
+msgstr "All accepted"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options"
+msgid "Selected shipment options"
+msgstr "Selected shipment options"
+
+msgctxt "Languages::addons.sd_myparcel_nl.track_n_trace_status"
+msgid "Tracking info"
+msgstr "Tracking info"
+
+msgctxt "Languages::addons.sd_myparcel_nl.create_webhook_subscription_error"
+msgid "Webhook creation error"
+msgstr "Webhook creation error"
+
+msgctxt "Languages::addons.sd_myparcel_nl.webhooks_subscriptions"
+msgid "Webhooks subscriptions"
+msgstr "Webhooks subscriptions"
+
+msgctxt "Languages::addons.sd_myparcel_nl.webhook_shipment_status_change"
+msgid "Shipment status changed event"
+msgstr "Shipment status changed event"
+
+msgctxt "Languages::addons.sd_myparcel_nl.notifications.webhooks_subscription_added"
+msgid "Webhook was successfully added"
+msgstr "Webhook was successfully added"
+
+msgctxt "Languages::addons.sd_myparcel_nl.notifications.webhook_subscription_deleted"
+msgid "Webhook was successfully deleted"
+msgstr "Webhook was successfully deleted"
+
+msgctxt "Languages::addons.sd_myparcel_nl.print_labels"
+msgid "Print labels"
+msgstr "Print labels"
+
+msgctxt "Languages::addons.sd_myparcel_nl.insurance_corrected"
+msgid "Max amount of insuranse is [max_value],- EUR. The value was automatically corrected."
+msgstr "Max amount of insuranse is [max_value],- EUR. The value was automatically corrected."
+
+msgctxt "Languages::addons.sd_myparcel_nl.order_was_created_with_obsolete_shipping_api_key"
+msgid "The order was created with shipping that API key is obsolete. Please edit/save order if you want to create a new shipment(s) for it."
+msgstr "The order was created with shipping that API key is obsolete. Please edit/save order if you want to create a new shipment(s) for it."
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.pending-concept"
+msgid "Pending - concept"
+msgstr "Pending - concept"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.pending-registered"
+msgid "Pending - registered"
+msgstr "Pending - registered"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-handed_to_carrier"
+msgid "Enroute - handed to carrier"
+msgstr "Enroute - handed to carrier"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-sorting"
+msgid "Enroute - sorting"
+msgstr "Enroute - sorting"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-distribution"
+msgid "Enroute - distribution"
+msgstr "Enroute - distribution"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-customs"
+msgid "Enroute - customs"
+msgstr "Enroute - customs"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-at_recipient"
+msgid "Delivered - at recipient"
+msgstr "Delivered - at recipient"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-ready_for_pickup"
+msgid "Delivered - ready for pickup"
+msgstr "Delivered - ready for pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-package_picked_up"
+msgid "Delivered - package picked up"
+msgstr "Delivered - package picked up"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-return_shipment_ready_for_pickup"
+msgid "Delivered - return shipment ready for pickup"
+msgstr "Delivered - return shipment ready for pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-return_shipment_package_picked_up"
+msgid "Delivered - return shipment package picked up"
+msgstr "Delivered - return shipment package picked up"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.printed-letter"
+msgid "Printed - letter"
+msgstr "Printed - letter"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.credit"
+msgid "Credit"
+msgstr "Credit"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-concept"
+msgid "Inactive - concept"
+msgstr "Inactive - concept"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-registered"
+msgid "Inactive - registered"
+msgstr "Inactive - registered"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-handed_to_carrier"
+msgid "Inactive - enroute - handed to carrier"
+msgstr "Inactive - enroute - handed to carrier"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-sorting"
+msgid "Inactive - enroute - sorting"
+msgstr "Inactive - enroute - sorting"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-distribution"
+msgid "Inactive - enroute - distribution"
+msgstr "Inactive - enroute - distribution"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-customs"
+msgid "Inactive - enroute - customs"
+msgstr "Inactive - enroute - customs"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-delivered-at_recipient"
+msgid "Inactive - delivered - at recipient"
+msgstr "Inactive - delivered - at recipient"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-delivered-ready_for_pickup"
+msgid "Inactive - delivered - ready for pickup"
+msgstr "Inactive - delivered - ready for pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-delivered-package_picked up"
+msgid "Inactive - delivered - package picked up"
+msgstr "Inactive - delivered - package picked up"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-unknown"
+msgid "Inactive - unknown"
+msgstr "Inactive - unknown"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.credit_rejected"
+msgid "Credit rejected"
+msgstr "Credit rejected"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.credit_approved"
+msgid "Credit approved"
+msgstr "Credit approved"
+
+msgctxt "Languages::addons.sd_myparcel_nl.account_shipment_ids"
+msgid "Account's shipment IDs"
+msgstr "Account's shipment IDs"
+
+msgctxt "Languages::addons.sd_myparcel_nl.order_ids"
+msgid "Order IDs"
+msgstr "Order IDs"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipments"
+msgid "Shipments"
+msgstr "Shipments"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_size_error"
+msgid "Package size errror"
+msgstr "Package size errror"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery"
+msgid "Delivery"
+msgstr "Delivery"
+
+msgctxt "Languages::addons.sd_myparcel_nl.pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.pickup_at_time"
+msgid "Pickup at time"
+msgstr "Pickup at time"
+
+msgctxt "Languages::addons.sd_myparcel_nl.opening_hours"
+msgid "Opening hours"
+msgstr "Opening hours"
+
+msgctxt "Languages::addons.sd_myparcel_nl.empty_delivery_options"
+msgid "No delivery options for selected location. Try to use another shipping address."
+msgstr "No delivery options for selected location. Try to use another shipping address."
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_options"
+msgid "Delivery options"
+msgstr "Delivery options"
+
+msgctxt "Languages::addons.sd_myparcel_nl.pickup_address"
+msgid "Pickup address"
+msgstr "Pickup address"
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shippings_tabs_content_post_addons.sd_myparcel_nl.delivery_types.morning"
+msgid "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+msgstr "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shippings_tabs_content_post_addons.sd_myparcel_nl.delivery_types.standard"
+msgid "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+msgstr "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shippings_tabs_content_post_addons.sd_myparcel_nl.delivery_types.night"
+msgid "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+msgstr "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shippings_tabs_content_post_addons.sd_myparcel_nl.delivery_types.pickup"
+msgid "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+msgstr "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shippings_tabs_content_post_addons.sd_myparcel_nl.delivery_types.express"
+msgid "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+msgstr "Enter price in cents. If you want to use prices from service then enter non-numeric value, or keep the field empty."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::label_position"
+msgid "Label position"
+msgstr "Label position"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::package_type"
+msgid "Package type"
+msgstr "Package type"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::only_recipient"
+msgid "Only recipient"
+msgstr "Only recipient"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::only_recipient"
+msgid "Deliver the package only at address of the intended recipient. This option is required for Morning and Evening delivery types."
+msgstr "Deliver the package only at address of the intended recipient. This option is required for Morning and Evening delivery types."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::signature"
+msgid "Signature"
+msgstr "Signature"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::signature"
+msgid "Recipient must sign for the package. This option is required for Pickup and Pickup express delivery types."
+msgstr "Recipient must sign for the package. This option is required for Pickup and Pickup express delivery types."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::return"
+msgid "Return"
+msgstr "Return"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::return"
+msgid "Return the package to the sender when the recipient is not home."
+msgstr "Return the package to the sender when the recipient is not home."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::large_format"
+msgid "Large format"
+msgstr "Large format"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::large_format"
+msgid "This option must be specified if the dimensions of the package are between 100 x 70 x 50 and 175 x 78 x 58 cm. If the scanned dimensions from the carrier indicate that this package is large format and it has not been specified then it will be added to the shipment in the billing process. This option is also available for EU shipments."
+msgstr "This option must be specified if the dimensions of the package are between 100 x 70 x 50 and 175 x 78 x 58 cm. If the scanned dimensions from the carrier indicate that this package is large format and it has not been specified then it will be added to the shipment in the billing process. This option is also available for EU shipments."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::insurance"
+msgid "Insurance"
+msgstr "Insurance"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::insurance"
+msgid "This option allows a shipment to be insured up to certain amount. Only package type 1 (package) shipments can be insured. NL shipments can be insured for 5000,- euros. EU shipments must be insured for 500,- euros. Global shipments must be insured for 200,- euros. The following shipment options are mandatory when insuring an NL shipment: only_recipient and signature."
+msgstr "This option allows a shipment to be insured up to certain amount. Only package type 1 (package) shipments can be insured. NL shipments can be insured for 5000,- euros. EU shipments must be insured for 500,- euros. Global shipments must be insured for 200,- euros. The following shipment options are mandatory when insuring an NL shipment: only_recipient and signature."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::notify_user"
+msgid "Notify user"
+msgstr "Notify user"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::notify_user"
+msgid "Notify user on bulk shipments creation."
+msgstr "Notify user on bulk shipments creation."
+
+msgctxt "Languages::addons.sd_myparcel_nl.checkout_enable"
+msgid "Checkout enable"
+msgstr "Checkout enable"
+
+msgctxt "Languages::addons.sd_myparcel_nl.update_shipment_error"
+msgid "Shipment service response: \"Shipment was not created\""
+msgstr "Shipment service response: \"Shipment was not created\""
+
+msgctxt "Languages::addons.sd_myparcel_nl.update_shipment_error_bad_address"
+msgid "Shipment service response: \"Shipment was not created because the addresses are incorrect.\""
+msgstr "Shipment service response: \"Shipment was not created because the addresses are incorrect.\""
+
+msgctxt "Languages::addons.sd_myparcel_nl.print_label_error_3105"
+msgid "These orders can not be exported because mailbox package is not allowed outside The Netherlands."
+msgstr "These orders can not be exported because mailbox package is not allowed outside The Netherlands."
+
+msgctxt "Languages::addons.sd_myparcel_nl.print_label_error_default"
+msgid "These orders can not be exported. Error code [error code]."
+msgstr "These orders can not be exported. Error code [error code]."
+
+msgctxt "Languages::addons.sd_myparcel_nl.undefined_error"
+msgid "Undefined error."
+msgstr "Undefined error."
+
+msgctxt "Languages::addons.sd_myparcel_nl.monday"
+msgid "Monday"
+msgstr "Monday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.tuesday"
+msgid "Tuesday"
+msgstr "Tuesday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.wednesday"
+msgid "Wednesday"
+msgstr "Wednesday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.thursday"
+msgid "Thursday"
+msgstr "Thursday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.friday"
+msgid "Friday"
+msgstr "Friday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.saturday"
+msgid "Saturday"
+msgstr "Saturday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.sunday"
+msgid "Sunday"
+msgstr "Sunday"
+
+msgctxt "Languages::addons.sd_myparcel_nl.price_comment.morning"
+msgid "Morning"
+msgstr "Morning"
+
+msgctxt "Languages::addons.sd_myparcel_nl.price_comment.avond"
+msgid "Avond"
+msgstr "Avond"
+
+msgctxt "Languages::addons.sd_myparcel_nl.price_comment.standard"
+msgid "Standard"
+msgstr "Standard"

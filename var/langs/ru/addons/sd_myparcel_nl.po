@@ -1,0 +1,489 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::sd_myparcel_nl"
+msgid "Simtech Development: Service Myparcel.nl integration"
+msgstr "Simtech Development: Интеграция службы доставки Myparcel.nl"
+
+msgctxt "Addons::description::sd_myparcel_nl"
+msgid "<a href=\"https://www.myparcel.nl/\" target=\"_blank\">Myparcel</a> shipping service. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Служба доставки <a href=\"https://www.myparcel.nl/\" target=\"_blank\">Myparcel</a>. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Техподдержка</a>"
+
+msgctxt "SettingsSections::sd_myparcel_nl::general"
+msgid "General"
+msgstr "Главная"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::bulk_print_label_page_format"
+msgid "Bulk print labels page format"
+msgstr "Формат страницы для пакетной печати наклеек"
+
+msgctxt "SettingsVariants::sd_myparcel_nl::bulk_print_label_page_format::A4"
+msgid "A4"
+msgstr "A4"
+
+msgctxt "SettingsVariants::sd_myparcel_nl::bulk_print_label_page_format::A6"
+msgid "A6"
+msgstr "A6"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::webhooks_password"
+msgid "Password for webhooks service"
+msgstr "Пароль для сервиса вебхуков"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::webhooks_password"
+msgid "Enter the secret phrase for the Myparcel service shipments status service callbacks"
+msgstr "Введите секретную фразу для сервиса обратных вызовов Myparcel"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::get_tracking_info_via_webhooks"
+msgid "Get tracking info via webhooks"
+msgstr "Получать информацию о статусе отгрузки через вебхук"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::get_tracking_info_via_webhooks"
+msgid "If set shipping status will be updated by change status event by webhook. If not set then status will be updated via API request to our service. First variant is better."
+msgstr "Если установлен - то смена статуса отгрузки происходит по событию на нашем сервисе. Если не установлен - информация о статусе запрашивается каждый раз при отображении заказов или отгрузок. Первый вариант предпочтительнее, так как делается меньше запросов к сети."
+
+msgctxt "Languages::carrier_myparcel_nl"
+msgid "MyparcelNL"
+msgstr "MyparcelNL"
+
+msgctxt "Languages::sd_myparcel_nl.order_info"
+msgid "Information from MyparcelNL"
+msgstr "Информация с MyparcelNL"
+
+msgctxt "Languages::addons.sd_myparcel_nl.sandbox_mode"
+msgid "Test mode"
+msgstr "Тестовый режим"
+
+msgctxt "Languages::addons.sd_myparcel_nl.customer_code"
+msgid "Customer code"
+msgstr "Код пользователя"
+
+msgctxt "Languages::addons.sd_myparcel_nl.customer_number"
+msgid "Customer number"
+msgstr "Номер пользователя"
+
+msgctxt "Languages::addons.sd_myparcel_nl.username"
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgctxt "Languages::addons.sd_myparcel_nl.api_key"
+msgid "API key/password"
+msgstr "API ключ/пароль"
+
+msgctxt "Languages::addons.sd_myparcel_nl.company_name"
+msgid "Company name"
+msgstr "Название компании"
+
+msgctxt "Languages::addons.sd_myparcel_nl.type"
+msgid "Delivery type"
+msgstr "Тип доставки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipping_rates"
+msgid "Shipping charges table"
+msgstr "Таблица стоимости доставки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.destination_zone"
+msgid "Destination zone"
+msgstr "Зона доставки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.ship_max_height"
+msgid "Max package height"
+msgstr "Максимальная высота упаковки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.ship_max_width"
+msgid "Max package width"
+msgstr "Максимальная ширина упаковки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.ship_max_length"
+msgid "Max package length"
+msgstr "Максимальная длина упаковки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.tracking_link"
+msgid "Tracking link"
+msgstr "Ссылка отслеживания отгрузки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label"
+msgid "Label"
+msgstr "Наклейка"
+
+msgctxt "Languages::addons.sd_myparcel_nl.labels"
+msgid "Labels"
+msgstr "Наклейки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.additional_shipment_info"
+msgid "Additional shipment info"
+msgstr "Дополнительная информация об отгрузке"
+
+msgctxt "Languages::addons.sd_myparcel_nl.error_no_package_dimensions_data"
+msgid "One or more products has no box size data"
+msgstr "У одного или нескольких продуктов отсутствуют данные о размерах упаковки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.error_label_request_is_invalid"
+msgid "Labelling request is invalid."
+msgstr "Запрос печати наклеек неверен"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_is_empty"
+msgid "Shipment object is empty"
+msgstr "Объект Shipment пуст"
+
+msgctxt "Languages::addons.sd_myparcel_nl.error_order_parameters_not_suitable_to_myparcel_nl"
+msgid "The order's parameters isn't suitable for MyparcelNL service."
+msgstr "Параметры заказа не подходят для сервиса MyparcelNL. Пожалуйста, выберите другой сервис доставки."
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipping_params_is_empty"
+msgid "Wrong shipping parameters of the product."
+msgstr "Неверные параметры доставки продукта."
+
+msgctxt "Languages::addons.sd_myparcel_nl.tariff_zone"
+msgid "Tariff zone"
+msgstr "Тарифная зона"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_page_format"
+msgid "Label page format"
+msgstr "Формат страницы для печати наклеек"
+
+msgctxt "Languages::carrier_myparcel"
+msgid "Myparcel.nl"
+msgstr "Myparcel.nl"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.morning"
+msgid "Morning"
+msgstr "Утро"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.standard"
+msgid "Standard"
+msgstr "Стандарт"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.night"
+msgid "Night"
+msgstr "Ночь"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.pickup"
+msgid "Pickup"
+msgstr "Самовывоз"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_types.express"
+msgid "Express"
+msgstr "Экспресс"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_types.package"
+msgid "Package"
+msgstr "Пакет"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_types.mailbox_package"
+msgid "Mailbox package"
+msgstr "Бандероль"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_types.letter"
+msgid "Letter"
+msgstr "Письмо"
+
+msgctxt "Languages::addons.sd_myparcel_nl.package_type"
+msgid "Package type"
+msgstr "Тип пакета"
+
+msgctxt "Languages::addons.sd_myparcel_nl.delivery_type"
+msgid "Delivery type"
+msgstr "Тип доставки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.cutoff_time"
+msgid "Cutoff time"
+msgstr "Время отсечки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.dropoff_days"
+msgid "Dropoff days"
+msgstr "Дни выдачи"
+
+msgctxt "Languages::addons.sd_myparcel_nl.dropoff_delay"
+msgid "Dropoff delay"
+msgstr "Задержка выдачи"
+
+msgctxt "Languages::addons.sd_myparcel_nl.deliverydays_window"
+msgid "Deliverydays window"
+msgstr "Окно дней доставки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.excluded_delivery_types"
+msgid "Excluded delivery types"
+msgstr "Исключённые типы доставки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.only_recipient"
+msgid "Only recipient"
+msgstr "Только получателю"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.signature"
+msgid "Signature"
+msgstr "Подпись"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.return"
+msgid "Return"
+msgstr "Возврат"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.large_format"
+msgid "Large format"
+msgstr "Большой формат"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options.insurance"
+msgid "Insurance"
+msgstr "Страховка"
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.only_recipient"
+msgid "Deliver the package only at address of the intended recipient. This option is required for Morning and Evening delivery types."
+msgstr "Доставить пакет только на адрес указанного получателя. Эта опция требуется для типов доставки Утро и Вечер(Ночь)."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.signature"
+msgid "Recipient must sign for the package. This option is required for Pickup and Pickup express delivery types."
+msgstr "Получатель должен расписаться в получении. Эта опция обязательна для типов доставки Самовывоз и Самовывоз экспресс."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.return"
+msgid "Return the package to the sender when the recipient is not home."
+msgstr "Возврат пакета отправителю, если получателя нет дома."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.large_format"
+msgid "This option must be specified if the dimensions of the package are between 100 x 70 x 50 and 175 x 78 x 58 cm. If the scanned dimensions from the carrier indicate that this package is large format and it has not been specified then it will be added to the shipment in the billing process. This option is also available for EU shipments."
+msgstr "Эта опция должна быть выбрана, если размеры упаковки находятся между 100 x 70 x 50 и 175 x 78 x 58 см. Если размеры упаковки превышают указанные, то взимается дополнительная плата. Эта опция также доступна для доставки по Евросоюзу."
+
+msgctxt "Languages::tt_addons_sd_myparcel_nl_hooks_shipments_additional_info_post_addons.sd_myparcel_nl.shipment_options.insurance"
+msgid "This option allows a shipment to be insured up to certain amount. Only package type 1 (package) shipments can be insured. NL shipments can be insured for 5000,- euros. EU shipments must be insured for 500,- euros. Global shipments must be insured for 200,- euros. The following shipment options are mandatory when insuring an NL shipment: only_recipient and signature."
+msgstr "Эта опция позволяет застраховать отгрузку на определённую сумму. Застрахован может быть только пакет типа 1 (Пакет). Отгрузка по Нидерландам может быть застрахована на 5000 евро. Отгрузка по Евросоюзу должна быть застрахована на 500 евро. Доставка по миру должна быть застрахована на 200 евро. Следующие опции отгрузки обязательны, когда страхуется отгрузка по Нидерландам: 'Лично получателю' и 'Подпись'."
+
+msgctxt "Languages::addons.sd_myparcel_nl.additional_shipping_options_price_modifier"
+msgid "Additional price"
+msgstr "Дополнительная цена"
+
+msgctxt "Languages::addons.sd_myparcel_nl.no_deliver_at_selected_datetime"
+msgid "No deliver options for selected datetime. Please select other date or time"
+msgstr "Нет доступных опций для выбранного времени. Пожалуйста, выберите другую дату и/или время."
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions"
+msgid "Label positions"
+msgstr "Позиция наклейки."
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.top-left"
+msgid "Top left"
+msgstr "Верхний левый"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.top-right"
+msgid "Top right"
+msgstr "Верхний правый"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.bottom-left"
+msgid "Bottom left"
+msgstr "Нижний левый"
+
+msgctxt "Languages::addons.sd_myparcel_nl.label_positions.bottom-right"
+msgid "Bottom right"
+msgstr "Нижний правый"
+
+msgctxt "Languages::addons.sd_myparcel_nl.all_delivery_types_accepted"
+msgid "All accepted"
+msgstr "Все доступны"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_options"
+msgid "Selected shipment options"
+msgstr "Выбранные опции отгрузки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.track_n_trace_status"
+msgid "Tracking info"
+msgstr "Статус отгрузки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.create_webhook_subscription_error"
+msgid "Webhook creation error"
+msgstr "Ошибка создания вебхука"
+
+msgctxt "Languages::addons.sd_myparcel_nl.webhooks_subscriptions"
+msgid "Webhooks subscriptions"
+msgstr "Подписки на вебхуки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.webhook_shipment_status_change"
+msgid "Shipment status changed event"
+msgstr "Событие смены статуса отгрузки"
+
+msgctxt "Languages::addons.sd_myparcel_nl.notifications.webhooks_subscription_added"
+msgid "Webhook was successfully added"
+msgstr "Вебхук успешно добавлен"
+
+msgctxt "Languages::addons.sd_myparcel_nl.notifications.webhook_subscription_deleted"
+msgid "Webhook was successfully deleted"
+msgstr "Вебхук успешно удалён"
+
+msgctxt "Languages::addons.sd_myparcel_nl.print_labels"
+msgid "Print labels"
+msgstr "Печать наклеек"
+
+msgctxt "Languages::addons.sd_myparcel_nl.insurance_corrected"
+msgid "Max amount of insuranse is [max_value],- EUR. The value was automatically corrected."
+msgstr "Максимальная сумма страховки [max_value] Евро. Значение было автоматически исправлено."
+
+msgctxt "Languages::addons.sd_myparcel_nl.order_was_created_with_obsolete_shipping_api_key"
+msgid "The order was created with shipping that API key is obsolete. Please edit/save order if you want create new shipment(s) for it."
+msgstr "Заказ был создан с использованием метода доставки, API ключ которого устарел. Если Вы хотите добавить отгрузки к этому заказу, отредактируйте заказ, выбрав метод достаки с действующим ключом API."
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.pending-concept"
+msgid "Pending - concept"
+msgstr "Pending - concept"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.pending-registered"
+msgid "Pending - registered"
+msgstr "Pending - registered"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-handed_to_carrier"
+msgid "Enroute - handed to carrier"
+msgstr "Enroute - handed to carrier"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-sorting"
+msgid "Enroute - sorting"
+msgstr "Enroute - sorting"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-distribution"
+msgid "Enroute - distribution"
+msgstr "Enroute - distribution"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.enroute-customs"
+msgid "Enroute - customs"
+msgstr "Enroute - customs"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-at_recipient"
+msgid "Delivered - at recipient"
+msgstr "Delivered - at recipient"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-ready_for_pickup"
+msgid "Delivered - ready for pickup"
+msgstr "Delivered - ready for pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-package_picked_up"
+msgid "Delivered - package picked up"
+msgstr "Delivered - package picked up"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-return_shipment_ready_for_pickup"
+msgid "Delivered - return shipment ready for pickup"
+msgstr "Delivered - return shipment ready for pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.delivered-return_shipment_package_picked_up"
+msgid "Delivered - return shipment package picked up"
+msgstr "Delivered - return shipment package picked up"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.printed-letter"
+msgid "Printed - letter"
+msgstr "Printed - letter"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.credit"
+msgid "Credit"
+msgstr "Credit"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-concept"
+msgid "Inactive - concept"
+msgstr "Inactive - concept"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-registered"
+msgid "Inactive - registered"
+msgstr "Inactive - registered"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-handed_to_carrier"
+msgid "Inactive - enroute - handed to carrier"
+msgstr "Inactive - enroute - handed to carrier"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-sorting"
+msgid "Inactive - enroute - sorting"
+msgstr "Inactive - enroute - sorting"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-distribution"
+msgid "Inactive - enroute - distribution"
+msgstr "Inactive - enroute - distribution"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-enroute-customs"
+msgid "Inactive - enroute - customs"
+msgstr "Inactive - enroute - customs"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-delivered-at_recipient"
+msgid "Inactive - delivered - at recipient"
+msgstr "Inactive - delivered - at recipient"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-delivered-ready_for_pickup"
+msgid "Inactive - delivered - ready for pickup"
+msgstr "Inactive - delivered - ready for pickup"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-delivered-package_picked up"
+msgid "Inactive - delivered - package picked up"
+msgstr "Inactive - delivered - package picked up"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.inactive-unknown"
+msgid "Inactive - unknown"
+msgstr "Inactive - unknown"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.credit_rejected"
+msgid "Credit rejected"
+msgstr "Credit rejected"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipment_status.credit_approved"
+msgid "Credit approved"
+msgstr "Credit approved"
+
+msgctxt "Languages::addons.sd_myparcel_nl.account_shipment_ids"
+msgid "Account's shipment IDs"
+msgstr "Список ID отгрузки для аккаунта"
+
+msgctxt "Languages::addons.sd_myparcel_nl.order_ids"
+msgid "Order IDs"
+msgstr "Список номеров заказов"
+
+msgctxt "Languages::addons.sd_myparcel_nl.shipments"
+msgid "Отгрузки"
+msgstr "Отгрузки"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::label_position"
+msgid "Label position"
+msgstr "Позиция наклейки"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::package_type"
+msgid "Package type"
+msgstr "Тип пакета"
+
+msgctxt "SettingsOptions::sd_myparcel_nl::only_recipient"
+msgid "Only recipient"
+msgstr "Только получателю"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::only_recipient"
+msgid "Deliver the package only at address of the intended recipient. This option is required for Morning and Evening delivery types."
+msgstr "Доставить пакет только на адрес указанного получателя. Эта опция требуется для типов доставки Утро и Вечер(Ночь)."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::signature"
+msgid "Signature"
+msgstr "Подпись"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::signature"
+msgid "Recipient must sign for the package. This option is required for Pickup and Pickup express delivery types."
+msgstr "Получатель должен расписаться в получении. Эта опция обязательна для типов доставки Самовывоз и Самовывоз экспресс."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::return"
+msgid "Return"
+msgstr "Возврат"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::return"
+msgid "Return the package to the sender when the recipient is not home."
+msgstr "Возврат пакета отправителю, если получателя нет дома."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::large_format"
+msgid "Large format"
+msgstr "Большой формат"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::large_format"
+msgid "This option must be specified if the dimensions of the package are between 100 x 70 x 50 and 175 x 78 x 58 cm. If the scanned dimensions from the carrier indicate that this package is large format and it has not been specified then it will be added to the shipment in the billing process. This option is also available for EU shipments."
+msgstr "Эта опция должна быть выбрана, если размеры упаковки находятся между 100 x 70 x 50 и 175 x 78 x 58 см. Если размеры упаковки превышают указанные, то взимается дополнительная плата. Эта опция также доступна для доставки по Евросоюзу."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::insurance"
+msgid "Insurance"
+msgstr "Страховка"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::insurance"
+msgid "This option allows a shipment to be insured up to certain amount. Only package type 1 (package) shipments can be insured. NL shipments can be insured for 5000,- euros. EU shipments must be insured for 500,- euros. Global shipments must be insured for 200,- euros. The following shipment options are mandatory when insuring an NL shipment: only_recipient and signature."
+msgstr "Эта опция позволяет застраховать отгрузку на определённую сумму. Застрахован может быть только пакет типа 1 (Пакет). Отгрузка по Нидерландам может быть застрахована на 5000 евро. Отгрузка по Евросоюзу должна быть застрахована на 500 евро. Доставка по миру должна быть застрахована на 200 евро. Следующие опции отгрузки обязательны, когда страхуется отгрузка по Нидерландам: 'Лично получателю' и 'Подпись'."
+
+msgctxt "SettingsOptions::sd_myparcel_nl::notify_user"
+msgid "Notify user"
+msgstr "Информировать пользователя"
+
+msgctxt "SettingsTooltips::sd_myparcel_nl::notify_user"
+msgid "Notify user on bulk shipments creation."
+msgstr "Информировать пользователя во время массового создания отгрузок"
