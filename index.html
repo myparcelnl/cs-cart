@@ -1,240 +1,166 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8" />
-    <title>MyParcel CS Cart Handleiding</title>
-    <meta name="description" content="The documentation to make a connection with MyParcel">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8"/>
+    <title>CS-Cart MyParcel installatie- gebruikershandleiding</title>
+    <meta name="description" content="Installatie- gebruikershandleiding voor de CS-Cart MyParcel plug-in">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <link rel="shortcut icon" href="https://backoffice.myparcel.nl/images/favicon/favicon.ico">
-    <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css" />
-    <link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="css/github-light.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css"/>
+    <link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="css/github-light.css" media="screen" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/auto_menu.js"></script>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="menu col-xs-4 col-lg-3">
-            <nav class="navbar nav nav-pills nav-stacked">
-                <div class="menu-items">
-                </div>
-            </nav>
-        </div>
-        <section class="page-header col-xs-8 col-xs-offset-4 col-lg-9 col-lg-offset-3">
-            <img height="185" alt="" src="media/logo_myparcel.png">
-            <h1 class="project-name">
-                CS Cart Handleiding
-            </h1>
-            <br />
-            <a target="_blank" class="btn" href="https://google.nl">Link 1</a>
-            <a target="_blank" class="btn" href="https://google.nl">Link 2</a>
-        </section>
-        <section class="main-content col-xs-8 col-xs-offset-4 col-lg-7 col-lg-offset-4">
-            <h1>Inleiding</h1>
-            <p>
-                Deze handleiding beschrijft de functionaliteiten van de MyParcel plugin en hoe je de MyParcel plugin in jouw webwinkel kunt installeren.
-            </p>
-            <p>
-                Met deze CS Cart plugin kun je drie soorten MyParcel zendingen aanmaken:
-            </p>
-            <ul>
-                <li>Pakket zendingen waarbij het mogelijk is om het op te halen bij een PostNL locatie</li>
-                <li>Brievenbuspakje</li>
-                <li>Ongefrankeerd label</li>
-            </ul>
-            <div class="box">
-                <p>
-                    Plugins van derden die we ondersteunen
-                </p>
-                <ul>
-                    <li><a href="https://google.nl" target="_blank">Voorbeeld 1</a></li>
-                    <li><a href="https://google.nl" target="_blank">Voorbeeld 2</a></li>
-                    <li><a href="https://google.nl" target="_blank">Voorbeeld 3</a></li>
-                </ul>
-                <p class=nice>
-                    Let op: Wij leveren geen support op deze plugins!
-                </p>
-            </div>
-            <div>
-                <p>
-                    CS-Cart is een open-source platform. Dit houdt in dat updates van CS-Cart niet door MyParcel zijn te beïnvloeden. Aangezien de MyParcel plugin diverse aanpassingen doet in CS-Cart, bestaat er de mogelijkheid dat er bij een update bepaalde functionaliteiten niet meer gaan werken van de MyParcel plugin.
-                    <br>
-                    De huidige versie van de MyParcel plugin ondersteund op dit moment CS-Cart versie 4.8.2.
-                </p>
-            </div>
-            <div style="margin-top:10px">
-                <h1 id="1">1. Installatie</h1>
-                <h2 id="1_A">1.1 Nieuwe installatie</h2>
-                <p>
-                    Wij adviseren de installatie altijd eerst op een testomgeving uit te voeren en een back-up te maken van jouw webshop voor je met de plugin in de live webshop gaat. CS-Cart is een open-source platform waardoor er de mogelijkheid bestaat dat er conflicten met andere plugins zijn.
-                </p>
-                <ol>
-                    <li>Download de laatste versie bovenaan de pagina.</li>
-                    <li>Ga in CS-Cart naar Plug-ins → Plugins beheren en klik vervolgens op het plusje om een nieuwe module toe te voegen. Selecteer met behulp van de knop "Lokaal" het bestand dat zojuist is gedownload.</li>
-                    <li>Als het bestand is geselecteerd dan klik je op de knop Upload & installeer.</li>
-                    <img src='media/CSCart_1.png'>
-                    <li>De plugin is nu succesvol geïnstalleerd in jouw CS-Cart omgeving!</li>
-                    <li>Mocht er na de Upload &amp; installeer niks gebeuren? Klik op annuleer en ververs de pagina. De MyParcel plug-in dient nu in het overzicht te zien zijn.</li>
-                </ol>
-                <h2 id="1_B">1.2 Updaten bestaande installatie</h2>
-                <p>
-                    Beschrijf hier hoe een plugin kan worden geüpdatet.
-                </p>
-                <h2 id="1_C">1.3 Veelgestelde vragen over de installatie</h2>
-                <p>
-                    Zet hier de veel gestelde vragen omtrent de installatie
-                </p>
-                <h1 id="2">2. Configuratie</h1>
-                <h2 id="2_A">2.1 Standaard instellingen</h2>
-                <p>
-                    Alvorens er gestart kan worden met de plugin, dienen er eerst een aantal standaard instellingen te worden doorlopen. Allereerst dient een API-key toegevoegd te worden.
-                </p>
-                <p>
-                    Deze API-key kun je vinden in jouw MyParcel account onder Shopinstellingen -> Algemeen
-                </p>
-                <h3>API key</h3>
-                <img src='media/CSCart_2.png'>
-                <p>
-                    Kies vervolgens jouw favoriete printervoorkeur, positie, soort zending en standaard verzendopties.
-                </p>
-                <h3>Algemeen</h3>
-                <p>
-                    Onder het kopje Algemeen kunnen diverse instellingen worden aangepast. Voor de MyParcel plugin is het noodzakelijk om de tariefcalculatie op Realtime te zetten, de vervoerder op MyParcel en de verzendservice op MyParcel.nl.
-                </p>
-                <p>
-                    Houd er rekening mee dat de status uiteindelijk op Actief moet staan om deze verzendmethode zichtbaar te maken in de checkout voor jouw klanten.
-                </p>
-                <img src='media/CSCart_3.png'>
-                <h3>Configureren</h3>
-                <p>
-                    Onder het kopje Configureren zijn een aantal MyParcel gerelateerde instellingen om bezorgopties aan te bieden voor jouw klanten.
-                </p>
-                <p>
-                    Met de optie Sluitingstijd wordt de tijd (hh:mm) gevraagd tot wanneer de consument op de dag kan bestellen zodat jij nog de mogelijkheid hebt om deze bij PostNL af te geven.
-                </p>
-                <p>
-                    Met Afleverdagen worden de dagen bepaald wanneer jij de pakketten aanlevert bij PostNL. Lever je elke dag pakketten aan bij PostNL dan kunnen alle dagen geselecteerd worden middels de Shift knop op jouw toetsenbord.
-                </p>
-                <p>
-                    De Verwerkingstijd houdt in hoeveel dagen jij als webwinkelier nodig hebt om het pakket aan te leveren bij PostNL. Lever jij de pakketten altijd de volgende dag aan? Zet de Verwerkingstijd dan op 0.
-                </p>
-                <p>
-                    De Afleverdagen zijn het aantal dagen dat de consument in de toekomst kan kiezen (maximaal 14 dagen). Hiermee wordt de consument zeer flexibel in de bezorgdag.
-                </p>
-                <p>
-                    <b>Belangrijk</b>
-                    <br>
-                    PostNL houdt de pakketten niet vast op een distributiecentrum. Het is dus de verantwoording van de webwinkel om de order op het juiste moment aan te leveren. Is er door de consument bijvoobeeld gekozen voor 3 juni? Dan dient de order op 2 juni te worden verwerkt en worden aangeleverd bij PostNL.
-                </p>
-                <p>
-                    Middels de optie Bezorgopties deactiveren kunnen er specifieke bezorgopties uitgeschakeld worden. Is het bijvoorbeeld niet gewenst om een ochtenlevering aan te bieden voor jouw klant? Dan kan deze optie aangevinkt worden middels de Shift knop op jouw toetsenbord.
-                </p>
-                <img src='media/CSCart_4.png'>
-                <h3>Bezorgopties</h3>
-                <p>
-                    Onder het kopje Bezorgopties kunnen de kosten worden opgegeven van de zojuist ingevoerde bezorgopties bij het kopje Configureren. De bedragen dienen in centen te worden opgegeven en worden vervolgens aan jouw klant getoond in de checkout. Laat je het veld leeg? Dan worden de bedragen getoond die MyParcel rekent aan jou.
-                </p>
-                <p>
-                    <b>Belangrijk</b>
-                    <br>
-                    De bedragen die hier worden ingevoerd zijn additioneel op de reeds ingevoerde verzendkosten. Zijn de standaard verzendkosten bijvoorbeeld €5,00 en een avondlevering €1,00? Dan zijn de totale verzendkosten €6,00.
-                </p>
-                <img src='media/CSCart_5.png'>
-                <p>
-                    Tijdens het afrekenen zal dit er als volgt uit komen te zien in jouw webshop
-                </p>
-                <img src='media/CSCart_6.png'>
-                <h2 id="2_B">2.2 pagina 2</h2>
-                <p>
-                   123123123123123
-                </p>
-                <h2 id="2_C">2.3 pagina 3</h2>
-                <p>
-                    123123123123123
-                </p>
-                <h2 id="2_D">2.4 Pagina 4</h2>
-                <p>
-                    Beschrijf alle opties op pagina 4.                    
-                </p>
-                <h2 id="2_E">2.5 Veelgestelde vragen over de configuratie</h2>
-                <h3>Instellen PostNL verzendmethode</h3>
-                <p>
-                    Na de standaard instellingen dient de PostNL verzendmethode te worden ingesteld. Middels deze verzendmethode worden de shipping kosten en bezorgopties als ochtend-, avondlevering en ophalen bij PostNL locaties ingesteld.
-                </p>
-                <h1 id="3">3. Gebruik plugin</h1>
-                <p>
-                    Wanneer een bestelling binnen komt in CS-Cart, dan dient hier een verzendlabel van gemaakt te worden. Het creëren van verzendlabels kan vanuit het bestellingenoverzicht zowel als enkele bestelling als in bulk. Bij het aanmaken van de bestelling zal er rekening worden gehouden met eventueel gekozen bezorgopties van de consument en de Standaard instellingen.
-                </p>
-                <h2 id="3_A">3.1 Aanmaken van één/meerdere verzendlabel</h2>
-                <p>
-                    Wanneer er bestellingen zijn binnen gekomen dan is er de mogelijkheid om deze direct te verwerken tot een verzendlabel n.a.v. de instellingen die zijn opgegeven tijdens de Standaard instellingen. Dit kan zowel enkel als in bulk. Vink de gewenste bestellingen aan en klik vervolgens op de button Print labels.
-                </p>
-                <img src='media/CSCart_7.png'>
-                <h2 id="3_B">3.2 Aanmaken meerdere verzendlabels</h2>
-                <p>
-                    Beschrijf hier hoe je meerdere verzendlabels aanmaakt.
-                </p>
-                <h2 id="3_C">3.3 Aanpassen van een enkele zending</h2>
-                <p>
-                    Is er bij een bestelling iets dat gewijzigd moet worden? Denk hierbij bijvoorbeeld aan de Standaard instellingen die gewijzigd moeten worden? Dan kan dat door op de knop Nieuwe verzending te klikken.
-                </p>
-                <img src='media/CSCart_8.png'>
-                <p>
-                    In dit overzicht is het mogelijk om de printervoorkeur, label positie, soort zending en de verschillende verzendopties te wijzigen.
-                </p>
-                <img src='media/CSCart_9.png'>
-                <h2 id="3_D">3.4 Checkout</h2>
-                <p>
-                    Beschrijf hier hoe de consument de checkout gebruikt.
-                </p>
-                <h2 id="3_E">3.5 Veelgestelde vragen over het gebruik van de plugin</h2>
-                <p>
-                    Zet hier de veel gestelde vragen omtrent het gebruik van de plugin.
-                </p>
-                <footer class="site-footer">
-                    <p>
-                        <span class="site-footer-owner">MyParcel</span>
-                    </p>
-                    <p>
-                        <span class="site-footer-credits">
-                            <strong>Adres </strong>Siriusdreef 66-68, 2132 WT Hoofddorp<br />
-                            <strong>Telefoon </strong>023 30 30 315&nbsp;
-                            <strong>E-mail</strong> &nbsp;info@myparcel.nl<br />
-                            <strong>Website </strong><a href="https://www.myparcel.nl">www.myparcel.nl</a>&nbsp;
-                            <strong>IBAN </strong>NL48ABNA0447850539&nbsp;
-                            <strong>KvK </strong>Amsterdam 34 09 97 58 <br />
-                            <strong>BTW-nr. </strong>NL8045.33.258.B01
-                        </span>
-                        <br />
-                        &nbsp;
-                    </p>
-                </footer>
-            </div>
-        </section>
+<section class="page-header">
+    <p>
+        <img alt="" src="media/logo_myparcel.png"/>
+        <img src="media/logo_cs_cart.png" style="margin-bottom: 20px;height: 150px;"/></p>
+    <h1 class="project-name">
+        Installatie- gebruikershandleiding
+    </h1>
+    <h2 class="project-tagline">
+        CS-Cart MyParcel plug-in
+    </h2>
+    <a target="_blank" class="btn" href="https://github.com/myparcelnl/cs-cart">GitHub</a>
+    <a target="_blank" class="btn" href="https://github.com/myparcelnl/cs-cart/releases">Alle updates</a>
+    <a target="_blank" class="btn" href="https://github.com/myparcelnl/cs-cart/archive/master.zip">Laatste versie</a>
+</section>
+<section class="main-content">
+        <h1>Inleiding</h1>
+        In deze handleiding wordt uitgelegd hoe je de CS-Cart koppeling kunt installeren en hoe deze koppeling werkt.
+        <br><br>
+        We hebben speciaal voor CS-Cart gebruikers een koppeling ontwikkeld. Waar je voorheen handmatig adressen moest kopiëren en plakken, kun je nu met slecht één klik automatisch jouw CS-Cart bestellingen exporteren en een MyParcel verzending aanmaken.
+        <br><br>
+        Daarnaast heeft MyParcel het voor CS-Cart gebruikers mogelijk gemaakt om met een aantal kliks bezorgopties aan te bieden in jouw checkout.
+        <br><br>
+        In de handleiding gaan we elk onderdeel langs zodat het voor jou zo duidelijk en gemakkelijk mogelijk wordt gemaakt.
+
+        <h1>Inhoud</h1>
+        <div class="menu"></div>
+
+         <!--Hoofdstuk 1-->
+        <h1 id="1">1 Installatie</h1>
+        <h2 id="1_1">1.1 Via het CMS</h2>
+        Wij adviseren de installatie altijd eerst op een testomgeving uit te voeren en een back-up te maken van jouw webshop voor je met de plugin in de live webshop gaat. CS-Cart is een open-source platform waardoor er de mogelijkheid bestaat dat er conflicten met andere plugins zijn.
+        <br><br>
+        <ol>
+            <li>Download de laatste versie <a href="https://github.com/myparcelnl/cs-cart/archive/master.zip" target="_blank">hier</a>.</li>
+            <li>Ga in CS-Cart naar <span class="nice">Plug-ins</span> → <span class="nice">Plugins beheren</span> en klik vervolgens op het plusje om een nieuwe module toe te voegen. Selecteer met behulp van de knop "Lokaal" het bestand dat zojuist is gedownload.</li>
+            <br>
+            <img src="media/CS-cart-upload.png"/>
+            <br>
+            <li>Als het bestand is geselecteerd dan klik je op de knop <span class="nice">Upload & installeer</span>.</li>
+            <li>De plugin is nu succesvol geïnstalleerd in jouw CS-Cart omgeving!</li>
+            <br>
+            <img src="media/CS-cart-plugin-overview.png">
+            <br>
+            <li>Mocht er na de <span class="nice">Upload & installeer</span> niks gebeuren? Klik op annuleer en ververs de pagina. De MyParcel plug-in dient nu in het overzicht te zien zijn.</li>
+        </ol>
+
+        <h2 id="1_2">1.2 CS-Cart versie</h2>
+        CS-Cart is een open-source platform. Dit houdt in dat updates van CS-Cart niet door MyParcel zijn te bëinvloeden. Aangezien de MyParcel plugin diverse aanpassingen doet in CS-Cart, bestaat er de mogelijkheid dat er bij een update bepaalde functionaliteiten niet meer gaan werken van de MyParcel plugin.
+            <br>
+            De huidige versie van de MyParcel plugin ondersteund op dit moment <span class="nice"> CS-Cart versie 4.8.2</span>.
+
+         <!--Hoofdstuk 2-->
+        <h1 id="2">2 Instellen van de plugin</h1>
+        <h2 id="2_1">2.1 Standaard instellingen</h2>
+        Alvorens er gestart kan worden met de plugin, dienen er eerst een aantal standaard instellingen te worden doorlopen. Allereerst dient een API-key toegevoegd te worden.
+        <br><br>
+        <img src="media/CS-Cart API-key.png">
+        <br>
+        Om gebruik te maken van de MyParcel plugin is het noodzakelijk om een MyParcel account te hebben. Maak <a href="https://backoffice.myparcel.nl/registration" target="_blank">vrijblijvend</a> een account aan en haal vervolgens jouw <a href="https://backoffice.myparcel.nl/settings" target="_blank">API-key</a> op.
+        <br>
+        Kies vervolgens jouw favoriete printervoorkeur, positie, soort zending en standaard verzendopties.
+
+        <h2 id="2_2">2.2 Instellen PostNL verzendmethode</h2>
+        Na de standaard instellingen dient de PostNL verzendmethode te worden ingesteld. Middels deze verzendmethode worden de shipping kosten en bezorgopties als ochtend-, avondlevering en ophalen bij PostNL locaties ingesteld.
+        <h3 id="2_2_1">2.2.1 Algemeen</h3>
+        Onder het kopje Algemeen kunnen diverse instellingen worden aangepast. Voor de MyParcel plugin is het noodzakelijk om de tariefcalculatie op <span class="nice">Realtime</span> te zetten, de vervoerder op <span class="nice">MyParcel</span> en de verzendservice op <span class="nice">MyParcel.nl</span>.
+        <br><br>
+        Houd er rekening mee dat de status uiteindelijk op <span class="nice">Actief</span> moet staan om deze verzendmethode zichtbaar te maken in de checkout voor jouw klanten.
+        <br><br>
+        <img src="media/CS-Cart shipping method general.png">
+        <br>
+        <h3 id="2_2_2">2.2.2 Configureren</h3>
+        Onder het kopje Configureren zijn een aantal MyParcel gerelateerde instellingen om bezorgopties aan te bieden voor jouw klanten.
+        <br><br>
+        Met de optie <span class="nice">Sluitingstijd</span> wordt de tijd (hh:mm) gevraagd tot wanneer de consument op de dag kan bestellen zodat jij nog de mogelijkheid hebt om deze bij PostNL af te geven.
+        <br><br>
+        Met <span class="nice">Afleverdagen</span> worden de dagen bepaald wanneer jij de pakketten aanlevert bij PostNL. Lever je elke dag pakketten aan bij PostNL dan kunnen alle dagen geselecteerd worden middels de Shift knop op jouw toetsenbord.
+        <br><br>
+        De <span class="nice">Verwerkingstijd</span> houdt in hoeveel dagen jij als webwinkelier nodig hebt om het pakket aan te leveren bij PostNL. Lever jij de pakketten altijd de volgende dag aan? Zet de <span class="nice">Verwerkingstijd</span> dan op 0.
+        <br><br>
+        De <span class="nice">Afleverdagen</span> zijn het aantal dagen dat de consument in de toekomst kan kiezen (maximaal 14 dagen). Hiermee wordt de consument zeer flexibel in de bezorgdag.
+        <br><br>
+        <b>Belangrijk</b>
+        <br>
+        PostNL houdt de pakketten niet vast op een distributiecentrum. Het is dus de verantwoording van de webwinkel om de order op het juiste moment aan te leveren. Is er door de consument bijvoobeeld gekozen voor 3 juni? Dan dient de order op 2 juni te worden verwerkt en worden aangeleverd bij PostNL.
+        <br><br>
+        Middels de optie <span class="nice">Bezorgopties deactiveren</span> kunnen er specifieke bezorgopties uitgeschakeld worden. Is het bijvoorbeeld niet gewenst om een ochtenlevering aan te bieden voor jouw klant? Dan kan deze optie aangevinkt worden middels de Shift knop op jouw toetsenbord.
+        <br><br>
+        <img src="media/CS-Cart shipping method configuration.png">
+        <br>
+        <h3 id="2_2_3">2.2.3 Bezorgopties</h3>
+        Onder het kopje Bezorgopties kunnen de kosten worden opgegeven van de zojuist ingevoerde bezorgopties bij het kopje <a href="https://myparcelnl.github.io/cs-cart/#2_2_2">Configureren</a>. De bedragen dienen in <span class="nice">centen</span> te worden opgegeven en worden vervolgens aan jouw klant getoond in de checkout. Laat je het veld leeg? Dan worden de bedragen getoond die MyParcel rekent aan jou.
+        <br><br>
+        <b>Belangrijk</b>
+        <br>
+        De bedragen die hier worden ingevoerd zijn additioneel op de reeds ingevoerde verzendkosten. Zijn de standaard verzendkosten bijvoorbeeld €5,00 en een avondlevering €1,00? Dan zijn de totale verzendkosten €6,00.
+        <br><br>
+        <img src="media/CS-Cart shipping method shipping options.png">
+        <br><br>
+        Tijdens het afrekenen zal dit er als volgt uit komen te zien in jouw webshop
+        <br><br>
+        <img src="media/CS-Cart shipping options shipping costs.png">
+
+        <!--Hoofdstuk 3-->
+        <h1 id="3">3 Bestellingen & verzendlabels creëren</h1>
+        Wanneer een bestelling binnen komt in CS-Cart, dan dient hier een verzendlabel van gemaakt te worden. Het creëren van verzendlabels kan vanuit het bestellingenoverzicht zowel als enkele bestelling als in bulk. Bij het aanmaken van de bestelling zal er rekening worden gehouden met eventueel gekozen bezorgopties van de consument en de <a href="https://myparcelnl.github.io/cs-cart/#2_1">Standaard instellingen</a>.
+
+        <h2 id="3_1">3.1 Bestellingen direct verwerken</h2>
+        Wanneer er bestellingen zijn binnen gekomen dan is er de mogelijkheid om deze direct te verwerken tot een verzendlabel n.a.v. de instellingen die zijn opgegeven tijdens de <a href="https://myparcelnl.github.io/cs-cart/#2_1">Standaard instellingen</a>. Dit kan zowel enkel als in bulk. Vink de gewenste bestellingen aan en klik vervolgens op de button <span class="nice">Print labels</span>.
+        <br><br>
+        <img src="media/CS-Cart order direct print labels.png">
+        <br><br>
+
+        <h2 id="3_2">3.2 Bestelling aanpassen voor verwerking</h2>
+        Is er bij een bestelling iets dat gewijzigd moet worden? Denk hierbij bijvoorbeeld aan de <a href="https://myparcelnl.github.io/cs-cart/#2_1">Standaard instellingen</a> die gewijzigd moeten worden? Dan kan dat door op de knop <span class="nice">Nieuwe verzending</span> te klikken.
+        <br><br>
+        <img src="media/CS-Cart order change shipment options.png">
+        <br><br>
+        In dit overzicht is het mogelijk om de printervoorkeur, label positie, soort zending en de verschillende verzendopties te wijzigen.
+        <br><br>
+        <img src="media/CS-Cart order overview change options detail.png">
+
+        <!--Hoofdstuk 4-->
+        <h1 id="4">4 Hulp nodig?</h1>
+        <p>
+            Indien je vragen hebt over de installatie of het gebruik van de plug-in, helpen wij je graag. Ook tips & suggesties voor verbetering van de (werking) van de plug-in, horen wij graag. Mail <a href="mailto:support@myparcel.nl">support@myparcel.nl</a> of bel: 023 30 30 315.
+        </p>
+
+
     </div>
-</div>
-<script>
-    // Set postman button attributes in one place
-    postman_buttons = document.getElementsByClassName('postman-run-button');
 
-    for (i = 0; i < postman_buttons.length; i++) {
-        postman_buttons[i].setAttribute('data-postman-action', 'collection/import');
-        postman_buttons[i].setAttribute('data-postman-var-1', '065786285c2e5ed75509');
-        postman_buttons[i].setAttribute('data-postman-param', 'env%5BMyParcel%20public%5D=W3siZW5hYmxlZCI6dHJ1ZSwia2V5IjoiYXBpX2tleSIsInZhbHVlIjoiIn0seyJrZXkiOiJVc2VyLUFnZW50IiwidmFsdWUiOiJ7e1VzZXItQWdlbnR9fSIsImRlc2NyaXB0aW9uIjoiIiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJhdXRoX3Rva2VuIiwidmFsdWUiOiIiLCJkZXNjcmlwdGlvbiI6IiIsImVuYWJsZWQiOnRydWV9XQ==');
-    }
-
-    (function (p,o,s,t,m,a,n) {
-        !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
-        !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
-            (n = o.createElement("script")),
-                (n.id = s+t), (n.async = 1), (n.src = m), n
-        ));
-    }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
-</script>
-
+    <footer class="site-footer">
+        <p>
+            <span class="site-footer-owner">MyParcel</span>
+        </p>
+        <p>
+        <span class="site-footer-credits">
+            <strong>Adres </strong>Siriusdreef 66-68, 2132 WT Hoofddorp&nbsp;
+            <strong>Telefoon </strong>023 30 30 315&nbsp;
+            <strong>E-mail</strong> &nbsp;info@myparcel.nl<br/>
+            <strong>Website </strong>www.myparcel.nl&nbsp;
+            <strong>IBAN </strong>NL48ABNA0447850539&nbsp;
+            <strong>KvK </strong>Amsterdam 34 09 97 58 <br/>
+            <strong>BTW-nr. </strong>NL8045.33.258.B01
+        </span>
+        </p>
+    </footer>
+</section>
 </body>
 </html>
